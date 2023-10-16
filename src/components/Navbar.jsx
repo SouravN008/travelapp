@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { BsChatSquareDots } from 'react-icons/bs';
-import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
-
+import { FaFacebookF, FaInstagram } from 'react-icons/fa';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 const Navbar = () => {
        const [nav, setNav] = useState(false)
        const handleNav = ()=> {
@@ -26,7 +27,7 @@ const Navbar = () => {
       </ul>
       <div className=' flex justify-between'>
         <FaFacebookF className='mx-4' />
-        <FaTwitter className='mx-4' />
+        <FontAwesomeIcon icon={faTwitter} />
         <FaInstagram className='mx-4' />
       </div>
       <div onClick={handleNav} className='sm:hidden z-10'>

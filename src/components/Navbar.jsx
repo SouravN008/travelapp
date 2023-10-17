@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
-import { BsChatSquareDots } from 'react-icons/bs';
+// import { BsChatSquareDots } from 'react-icons/bs';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
